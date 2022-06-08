@@ -75,9 +75,7 @@ const About = () => {
               }}
               className="font-normal md:text-xl lg:text-2xl text-white drop-shadow-md md:max-w-md lg:max-w-2xl"
             >
-              {`Creado como proyecto de grado, para joderle la vida a unos
-jóvenes que ni quieren seguir estudiando en este país y solo irse
-jajaja Kotlin > Java.`}
+              {`Proyecto para culturizar a la ciudadanía de Barrancabermeja sobre los métodos de clasificación y puntos de recolección ubicados en la comunidad para así mejorar el tiempo y/o procesos que se le dan a nuestros materiales como residuos.`}
             </motion.p>
             <div>
               {authors.map((author) => {

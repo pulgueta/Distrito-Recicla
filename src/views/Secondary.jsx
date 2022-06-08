@@ -11,33 +11,24 @@ const Secondary = () => {
   const cards = [
     {
       id: 1,
-      title: "Tips",
+      title: "Consejos",
       icon: Icon,
       alt: "Icono de una lámpara",
-      description: `Conoce la información y
-        aprende sobre los distintos
-        modos de cómo reciclar
-        y clasificar tu materiales.`,
+      description: `Conoce y aprende a reciclar clasificando los diferentes materiales que tienes en casa.`,
     },
     {
       id: 2,
       title: "Usuarios",
       icon: User,
       alt: "Icono de un usuario",
-      description: `Aquí puedes registrarte e
-      iniciar sesión para poder
-      realizar tus solicitudes en
-      la plataforma.`,
+      description: `Regístrate e inicia sesión. Aquí podrás realizar todas las solicitudes en la plataforma.`,
     },
     {
       id: 3,
       title: "Foro",
       icon: Forum,
       alt: "Icono de foro",
-      description: `Adjunta tu petición y un
-      administrador se pondrá
-      en contacto contigo para
-      validar la información.`,
+      description: `Adjunta tu petición y una entidad encargada se contactará contigo y validará tus datos.`,
     },
   ];
 

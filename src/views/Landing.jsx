@@ -38,7 +38,7 @@ const Landing = () => {
               ease: "easeInOut",
               delay: 0.25,
             }}
-            className="text-white font-light md:text-xl drop-shadow-md lg:px-4"
+            className="text-white font-medium md:text-xl drop-shadow-md lg:px-4"
           >
             Creamos una manera de buscar diferentes entidades que reciclan en
             Barrancabermeja para culturizarnos y hacernos cargo de lo que

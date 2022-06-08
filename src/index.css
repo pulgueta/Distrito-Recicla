@@ -29,6 +29,12 @@
   height: 2.5px;
 }
 
+@media screen and (min-width: 768px) {
+  .textbar:after {
+    width: 35%;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .textbar:after {
     height: 3px;

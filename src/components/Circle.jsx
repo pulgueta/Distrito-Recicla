@@ -25,12 +25,6 @@ const Circle = () => {
       whileTap={{
         scale: 1.2,
       }}
-      onMouseLeave={{
-        rotate: 0,
-        transition: {
-          duration: 1.25,
-        },
-      }}
       className="bg-[#1976D2] drop-shadow w-10 h-10 md:w-12 md:h-12 text-2xl font-light rounded-[300px] flex items-center justify-center text-white cursor-pointer"
     >
       +
