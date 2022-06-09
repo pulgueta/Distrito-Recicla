@@ -15,9 +15,9 @@ const Card = (props) => {
           delay: 0.25,
         },
       }}
-      className="w-72 h-80 bg-white mt-5 rounded-xl shadow-md p-8 flex flex-col text-center justify-around"
+      className="w-72 h-80 bg-white mt-5 rounded-xl shadow-xl p-8 flex flex-col text-center justify-around"
     >
-      <h1 className="text-3xl font-bold text-recicla-900">{props.title}</h1>
+      <h1 className="text-3xl font-bold text-recicla-800">{props.title}</h1>
       <img src={props.icon} alt={props.alt} className="w-16 mx-auto" />
       <p className="font-medium text-neutral-500">{props.description}</p>
     </motion.div>

@@ -24,9 +24,9 @@ const About = () => {
   return (
     <div className="h-screen">
       <Anchor />
-      <div className="min-h-[calc(100vh-208px)] bg-recicla-800">
+      <div className="min-h-[calc(100vh-208px)] bg-white">
         <div className="lg:flex lg:flex-col lg:max-w-6xl mx-auto">
-          <div className="max-w-xs md:max-w-lg lg:max-w-2xl mx-auto py-4 flex flex-col justify-around h-64 lg:h-72">
+          <div className="max-w-xs md:max-w-lg lg:max-w-2xl mx-auto py-4 flex flex-col lg:items-center lg:flex-row justify-around h-64 lg:h-72">
             <motion.h1
               animate={{
                 y: -35,
@@ -39,7 +39,7 @@ const About = () => {
                   duration: 1,
                 },
               }}
-              className="text-2xl md:text-3xl lg:text-5xl font-semibold relative drop-shadow-md text-white textbar"
+              className="text-2xl md:text-3xl lg:text-4xl font-semibold drop-shadow-md text-recicla-900 textbar"
             >
               Este es un proyecto realizado en:
             </motion.h1>
@@ -57,7 +57,7 @@ const About = () => {
               }}
               src={UDI}
               alt="Logo UDI"
-              className="lg:w-[480px] mx-auto"
+              className="w-72 mx-auto rounded-md"
             />
           </div>
           <div className="px-4 md:px-10 md:flex md:justify-between h-full md:items-center">
@@ -73,7 +73,7 @@ const About = () => {
                   duration: 1,
                 },
               }}
-              className="font-normal md:text-xl lg:text-2xl text-white drop-shadow-md md:max-w-md lg:max-w-2xl"
+              className="font-medium md:text-xl lg:text-2xl text-recicla-900 drop-shadow-md md:max-w-md lg:max-w-2xl"
             >
               {`Proyecto para culturizar a la ciudadanía de Barrancabermeja sobre los métodos de clasificación y puntos de recolección ubicados en la comunidad para así mejorar el tiempo y/o procesos que se le dan a nuestros materiales como residuos.`}
             </motion.p>

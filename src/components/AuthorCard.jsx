@@ -31,7 +31,7 @@ const AuthorCard = (props) => {
             duration: 1,
           },
         }}
-        className="text-xl lg:text-2xl text-white drop-shadow-md"
+        className="text-xl lg:text-2xl text-recicla-900 drop-shadow-md"
       >
         {props.name}
       </motion.p>

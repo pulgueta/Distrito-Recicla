@@ -33,7 +33,7 @@ const Secondary = () => {
   ];
 
   return (
-    <div className="h-full py-10 bg-recicla-700">
+    <div className="h-full py-10 bg-neutral-100">
       <header className="max-w-sm mx-auto py-6 md:max-w-lg lg:max-w-xl">
         <motion.h1
           initial={{
@@ -47,9 +47,9 @@ const Secondary = () => {
               duration: 1.25,
             },
           }}
-          className="text-2xl md:text-3xl lg:text-4xl font-semibold text-white text-center drop-shadow-md"
+          className="text-2xl md:text-3xl lg:text-4xl font-semibold text-recicla-900 text-center drop-shadow-md"
         >
-          En <span className="text-recicla-900">Distrito Recicla</span> puedes
+          En <span className="text-recicla-800">Distrito Recicla</span> puedes
           llevar tu material reciclable. ¡Aquí te enseñamos cómo!
         </motion.h1>
       </header>
@@ -69,7 +69,7 @@ const Secondary = () => {
                   delay: 0.25,
                 },
               }}
-              className="text-white font-medium text-xl md:text-2xl drop-shadow-lg"
+              className="text-recicla-900 font-medium text-xl md:text-2xl drop-shadow-lg"
             >
               Con este botón:
             </motion.h2>
@@ -88,7 +88,7 @@ const Secondary = () => {
                 delay: 0.25,
               },
             }}
-            className="text-center text-lg text-white md:text-2xl md:font-medium drop-shadow-md lg:mt-3"
+            className="text-center text-lg text-recicla-900 md:text-2xl md:font-medium drop-shadow-md lg:mt-3"
           >
             podrás realizar las siguientes acciones:
           </motion.h2>

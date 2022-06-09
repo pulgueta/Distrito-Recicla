@@ -13,16 +13,16 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #B0E0E9;
+  background-color: #1EA6FC;
 }
 
 .textbar:after {
   content: "";
   display: block;
-  position: absolute;
+  position: relative;
   bottom: -6px;
   left: 0;
-  background-color: white;
+  background-color: #171717;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
   width: 50%;
   border-radius: 20rem;

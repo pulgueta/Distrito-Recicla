@@ -10,7 +10,7 @@ const Anchor = () => {
         <a
           href="https://degree-project-23bc1.web.app/"
           target="_blank"
-          className="bg-recicla-900 flex items-center px-4 py-2 rounded-md md:text-xl text-white font-medium md:px-5 hover:bg-recicla-hover duration-300 ease transition-all"
+          className="bg-recicla-800 flex items-center px-4 py-2 rounded-md md:text-xl text-white font-medium md:px-5 hover:bg-recicla-hover duration-300 ease transition-all"
         >
           <Location /> Ir al mapa
         </a>
