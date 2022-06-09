@@ -22,7 +22,7 @@ const Landing = () => {
             }}
             className="text-3xl font-bold drop-shadow-md text-white mb-4 md:text-4xl md:mb-12 lg:text-5xl lg:px-4"
           >
-            &iquest;Qué hacemos?
+            &iquest;Quiénes somos?
           </motion.h1>
           <motion.p
             initial={{
