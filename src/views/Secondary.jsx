@@ -25,9 +25,9 @@ const Secondary = () => {
     },
     {
       id: 3,
-      title: "Foro",
+      title: "Solicitudes",
       icon: Forum,
-      alt: "Icono de foro",
+      alt: "Icono de solicitudes",
       description: `Adjunta tu petición y una entidad encargada se contactará contigo y validará tus datos.`,
     },
   ];
